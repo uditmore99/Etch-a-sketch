@@ -10,7 +10,7 @@ body {
 
 #mainContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   height: 640px;
 }
 
@@ -23,9 +23,15 @@ body {
 #goButton {
   height: 50px;
   width: 100px;
-  background-color: brown;
+  background-color: green;
   text-align: center;
   cursor: pointer;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+#goButton > h3 {
+  transform: translateY(+50%);
 }
 
 #rightPanel {

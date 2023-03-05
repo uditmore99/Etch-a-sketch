@@ -29,7 +29,7 @@ function makeGrids() {
       newColumn.id = "c" + j;
       //   newColumn.innerHTML = j;
       newColumn.style.padding = 96 / rnc + "px";
-      newColumn.addEventListener("click", (event) => {
+      newColumn.addEventListener("mouseover", (event) => {
         event.target.style.backgroundColor = "white";
       });
 
